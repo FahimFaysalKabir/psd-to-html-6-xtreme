@@ -1,0 +1,267 @@
+@media all and (max-width:1200px){
+.header .menu{
+  width: 90%
+}
+.skills .skill-box{
+  width:18%;
+}
+.contact .input1{
+  margin-left: 127px;
+}
+.contact .input3{
+  margin-left: ;
+}
+.contact .input2{
+  margin-left:21px;
+}
+.contact .input3{
+  margin-left:-45px;
+}
+.skills .skill-box{
+  width: 24%;
+  }
+  .header .text a{
+    margin-top:66px;
+  }
+}
+@media all and (max-width:1024px){
+  .menu{
+    display: none;
+  }
+  .header .text h1{
+    font-size: 31px;
+    margin-top:128px;
+    margin-left: -46px;
+  }
+  .header .text a{
+    margin-left:271px;
+  }
+  .team-box{
+    width: 21%;
+  }
+  .portfolio-box{
+    width: 44%;
+  }
+  .portfolio .button{
+    width: 20%;
+  }
+  .people{
+    height: 953px;
+  }
+  .people-box{
+    width: 39%;
+    margin-top: 156px;
+  }
+  .contact .input1{
+    margin-left: 79px;
+  }
+  .contact .input2{
+    margin-left: 61px;
+  }
+  .contact .input3{
+    margin-left: -96px;
+  }
+  .footer ul li a{
+    padding: 5px 14px;
+  }
+}
+@media all and (max-width:980px){
+  .service{
+  height: 964px;
+  }
+  .service .box{
+  width: 50%;
+  }
+  .team-box{
+  width: 46%;
+  }
+  .team{
+  height: 1060px;
+  }
+  .skills .skill-box{
+    width: 42%;
+    margin-left: 57px;
+  }
+  .skills{
+  height: 907px;
+  }
+  .contact .input1{
+  margin-left: 48px;
+  }
+  .contact .input3{
+  margin-left: -141px;
+  }
+  .skills .skill-box h3{
+    margin-left: -73px;
+  }
+}
+@media all and (max-width:768px){
+  .team-box{
+    width: 45%;
+  }
+  .skills .skill-box{
+    width:40%;
+  }
+  .skills .skill-box h3{
+    margin-left: -34px;
+  }
+  .portfolio-box{
+    width: 43%;
+  }
+  .portfolio .button{
+    width: 27%;
+  }
+  .people-box{
+    width: 36%;
+    margin-top: 31px;
+  }
+  .people-box .image{
+    float: none;
+    margin: auto;
+    margin-right: 20px;
+  }
+  .people-box .text{
+    position:static;
+
+    width: 143%;
+  }
+.people-box .text h4{
+      text-align: center;
+}
+.people-box .text h5{
+      text-align: center;
+}
+.header .text h1{
+  margin-top: 100px;
+  margin-left: 18px;
+  font-size:20px;
+  margin-top: 86px;
+  margin-left: -4px;
+}
+.header .text a{
+  width: 22%;
+  margin-left:61px;
+}
+.contact input[type="text"]{
+  width: 317px;
+}
+.contact .input1{
+  margin-left:-13px;
+}
+.contact .input2{
+  margin-left: 84px;
+}
+.contact input[type="textarea"]{
+  width: 631px;
+}
+.contact .input3{
+  margin-left: -176px;
+}
+.footer ul li a{
+  font-size: 16px;
+}
+@media all and (max-width:480px){
+  .header {
+
+    height: 500px;}
+
+  .header .text{
+    width: 100%;
+  }
+ .header .text h1{
+
+ }
+ .header .text a{
+  width: 44%;
+  margin-left:58px;
+  }
+  .service{
+    height: 996px;
+  }
+  .team-box{
+    width:100%;
+  }
+  .team{
+    height:1974px;
+  }
+  .skills .skill-box{
+    width: 100%;
+    margin: auto;
+    margin-left:68px;
+  }
+  .skills .skill-box h3{
+    margin-left:-131px;
+  }
+  .skills {
+
+    height: 1400px;
+  }
+  .portfolio-box{
+    width:100%;
+  }
+  .portfolio{
+    height: 1900px;
+  }
+  .portfolio .button{
+    width: 41%;
+  }
+  .people-box{
+    width: 65%;
+  }
+  .people {
+
+    height: 1500px;
+}
+.contact input[type="text"] {
+
+    width: 100%;
+}
+.contact .input1,.input2{
+  width: 100%;
+
+}
+.contact .input2 {
+
+    margin-left: -70px;
+
+}
+.contact .input2 [type="text"]{
+  margin-top: 23px;
+}
+.contact input[type="textarea"]{
+  width: 68%;
+  margin-left:169px;
+}
+.contact{
+  height: 750px;
+}
+.contact a{
+  width: 29%;
+}
+.footer ul li a{
+  padding: 5px 2px;
+  font-size: 13px;
+}
+.service{
+  height: 1112px;
+}
+.button-mix button{
+  padding: 8px 12px;
+}
+.portfolio .button{
+  width: 56%;
+}
+.portfolio{
+  height:1889px;
+}
+.people-box .image{
+  margin-right: -5px;
+}
+.people-box .text p{
+  text-align: center;
+  margin-left: 15px;
+}
+.contact .input1{
+  margin-left: -4px;
+
+}
