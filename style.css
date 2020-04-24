@@ -6,6 +6,16 @@ font-family:bold;
 src: url(fonts/Lato-Regular.ttf);
 font-family:regular;
 }
+@font-face {
+src: url(fonts/Lato-Black.ttf);
+font-family:black;
+}
+@font-face {
+src: url(fonts/Merriweather-LightItalic.otf);
+font-family:merriweather;
+}
+
+
 body{
   height:2000px;
 }
@@ -15,11 +25,10 @@ body{
   max-width:1200px;
 }
 .header-top{
-  /* background-image: url(images/1.jpg); */
+  background-image: url(images/bg.jpg);
   background-color:#6b6b6b;
-  background-repeat:no-repeat;
-  -webkit-background-size:contain;
-  background-size:contain;
+  -webkit-background-size:cover;
+  background-size:cover;
   width:100%;
   height:760px;
   overflow:hidden;
@@ -119,4 +128,73 @@ body{
 .header-bottom ul li:hover a{
   background-color: #cd1411;
   border-bottom:4px solid black;
+}
+.mission{
+  background-color:#000;
+  width:100%;
+  height:1000px;
+  overflow: hidden;
+}
+.mission .mission-logo{
+ margin: auto;
+ display: block;
+ margin-top:50px;
+}
+.mission h3{
+  font-family:bold;
+  font-weight:normal;
+  color:#ffc908;
+  font-size:18px;
+  text-align: center;
+  margin-top:15px;
+}
+.mission h4{
+  color: #fff;
+  font-family:bold;
+  font-size:30px;
+  text-align: center;
+  margin-top:7px;
+}
+.mission .mission-left .some-heading{
+  width:15%;
+  border-left:7px solid #ffca08;
+  height:85px;
+  }
+.mission .mission-left .some-heading h3{
+  color: #888888;
+  font-size:25px;
+  text-align:left;
+  font-family:black;
+  margin-left:14px;
+  margin-top:-20px;
+}
+.mission .mission-left .some-heading img{
+  margin-left:160px;
+}
+.mission-left{
+  width:45%;
+  float: left;
+}
+.mission-left .p1{
+  color: #fff;
+  margin-left:50px;
+  font-family:merriweather;
+}
+.mission-left .p2{
+  color: #fff;
+  margin-left:50px;
+  font-family:merriweather;
+  margin-top:10px;
+}
+.mission-right{
+  width:45%;
+  float: left;
+}
+.mission-left .quote{
+  margin-top:20px;
+}
+.mission-left hr{
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+  line-height:5px;
 }
