@@ -14,6 +14,15 @@ font-family:black;
 src: url(fonts/Merriweather-LightItalic.otf);
 font-family:merriweather;
 }
+@font-face {
+src: url(fonts/Lato-Light.ttf);
+font-family:light;
+}
+@font-face {
+src: url(fonts/Lato-Italic.ttf);
+font-family:italic;
+}
+
 
 
 body{
@@ -132,7 +141,7 @@ body{
 .mission{
   background-color:#000;
   width:100%;
-  height:1000px;
+  height:700px;
   overflow: hidden;
 }
 .mission .mission-logo{
@@ -194,7 +203,83 @@ body{
   margin-top:20px;
 }
 .mission-left hr{
-  border-top:1px solid white;
+  border-top:none;
   border-bottom:1px solid white;
-  line-height:5px;
+  width:50px;
+  margin-left:50px;
+}
+.mission-left .hr1{
+  margin-top:40px;
+}
+.mission-left .hr2{
+  margin-top:-5px;
+}
+.mission-right .mr1{
+  width:27%;
+  height:220px;
+  background-color:#d6d6d6;
+  float: left;
+  margin-right:20px;
+  margin-top:40px;
+  margin-left:30px;
+}
+.mission-right .mr2{
+  width:27%;
+  height:220px;
+  background-color:#d6d6d6;
+  float: left;
+  margin-right:20px;
+  margin-top:40px;
+}
+.mission-right .mr3{
+  width:27%;
+  height:220px;
+  background-color:#d6d6d6;
+  float: left;
+  margin-right:20px;
+  margin-top:40px;
+}
+.mission-right .mr-text h4{
+ color: #fff;
+ font-family:light;
+ font-size:22px;
+ margin-left:-104px;
+ margin-top:277px;
+}
+.mission-right .mr-text h4 span{
+ color: #fff;
+ font-family:regular;
+ font-size:22px;
+}
+.mission-right .mr-text p{
+  color: #fff;
+  font-family:light;
+  margin-left:30px;
+}
+.mission-left .people .pp{
+  width:15%;
+  height:66px;
+  background-color: #fff;
+  float: left;
+  margin-left:51px;
+  margin-top:30px;
+}
+.mission-left .people .ppl-text{
+  width:40%;
+  float: left;
+  margin-left:20px;
+  margin-top:47px;
+
+}
+.mission-left .people .ppl-text h5{
+  font-family:bold;
+  color:#ffc906;
+}
+.mission-left .people .ppl-text h6 span{
+ display: block;
+}
+.mission-left .people .ppl-text h6{
+ font-family:italic;
+ font-size:14px;
+ color: #fff;
 }
