@@ -22,6 +22,10 @@ font-family:light;
 src: url(fonts/Lato-Italic.ttf);
 font-family:italic;
 }
+@font-face {
+src: url(fonts/Oswald-Light.ttf);
+font-family:Oswald-Light;
+}
 
 
 
@@ -141,7 +145,7 @@ body{
 .mission{
   background-color:#000;
   width:100%;
-  height:700px;
+  height:750px;
   overflow: hidden;
 }
 .mission .mission-logo{
@@ -282,4 +286,78 @@ body{
  font-family:italic;
  font-size:14px;
  color: #fff;
+}
+.about{
+  height:500px;
+}
+.about img{
+  display: block;
+  margin: auto;
+  margin-top:50px;
+}
+.about h2{
+  font-family:bold;
+  text-align:center;
+  font-size:30px;
+  margin-top:10px;
+}
+.about h3{
+  width:27%;
+  background-color:#fdc807;
+  text-align: center;
+  margin: auto;
+  font-family:Oswald-Light;
+  color:#fff;
+  font-weight:normal;
+  font-size:16px;
+  padding:4px 4px;
+  letter-spacing:3px;
+  margin-top:5px;
+}
+.about .sections .sec1{
+  width:20%;
+  height:100px;
+  float: left;
+}
+.about .sections .sec1 h4{
+  font-family:regular;
+  text-align: center;
+  margin:20px 0px;
+}
+.about .sections .sec2{
+  width:20%;
+  height:100px;
+  float: left;
+  margin-left:70px;
+}
+.about .sections .sec2 h4{
+  font-family:regular;
+  text-align: center;
+  margin:20px 0px;
+}
+.about .sections .sec3{
+  width:20%;
+  height:100px;
+  float: left;
+  margin-left:70px;
+}
+.about .sections .sec3 h4{
+  font-family:regular;
+  text-align: center;
+  margin:20px 0px;
+}
+.about .sections .sec4{
+  width:20%;
+  height:100px;
+  float: left;
+  margin-left:70px;
+}
+.about .sections .sec4 h4{
+  font-family:regular;
+  text-align: center;
+  margin:20px 0px;
+}
+.about .sections p{
+  font-family:light;
+  text-align: center;
 }
