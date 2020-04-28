@@ -76,15 +76,15 @@ body{
 .button .kornar{
   width:0px;
   height:0px;
-  border-top:10px solid transparent;
-  border-bottom:10px solid transparent;
-  border-left:10px solid #000;
-  border-right:10px solid transparent;
+  border-bottom:12px solid transparent;
+  border-left:12px solid transparent;
+  border-right:12px solid #000;
   position:absolute;
-  top:-6px;
-  right:-6px;
-  transform:rotate(-45deg);
+  top:0px;
+  right:0px;
+
 }
+
 .button a p{
   margin-top:15px;
   margin-left:5px;
@@ -161,6 +161,7 @@ body{
   width:100%;
   height:750px;
   overflow: hidden;
+  
 }
 .mission .mission-logo{
  margin: auto;
@@ -192,14 +193,12 @@ body{
     content:'';
     width:0px;
     height:0px;
-    border-top:10px solid transparent;
     border-bottom:10px solid transparent;
-    border-left:10px solid red;
-    border-right:10px solid transparent;
+    border-left:10px solid transparent;
+    border-right:10px solid red;
     position:absolute;
-    top:-11px;
-    right:-108px;
-    transform:rotate(-45deg);
+    top:0px;
+    right:-93px;
   }
 
 .mission .mission-left .some-heading h3{
@@ -343,235 +342,80 @@ body{
   letter-spacing:3px;
   margin-top:5px;
 }
-.about .sections .sec1{
-  width:20%;
-  height:100px;
-  float: left;
-  margin-top:70px;
-
-}
-
-
-
-.about .sections .sec1 a{
-  width:80px;
-  height:80px;
-  display: block;
-  background-color:#f4f4f4;
-  margin: auto;
-  transition:1s;
-  position: relative;
-}
-.about .sections .sec1 a::after {
-  width:0px;
-  height:0px;
-  border-top:10px solid transparent;
-  border-bottom:10px solid transparent;
-  border-left:10px solid red;
-  border-right:10px solid transparent;
-  position:absolute;
-  top:0px;
-  right:0px;
-  transform:rotate(-45deg);
-  transition:0.1s;
-}
-.about .sections .sec1 a i{
-  font-size:40px;
-  color: #000;
-  margin-top:20px;
-  margin-left:15px;
-}
-.about .sections .sec1 a:hover{
-  background-color:#000;
-  transition:1s;
-  border:3px solid #666666;
-}
-.about .sections .sec1 a:hover i{
-  color: #fff;
-}
-.about .sections .sec1 a:hover .sec1 h4{
-  color: red;
-
-}
-
-.about .sections .sec1 h4{
-  font-family:regular;
-  text-align: center;
-  margin:20px 0px;
-
-}
-.about .sections .sec2{
-  width:20%;
-  height:100px;
-  float: left;
-  margin-left:70px;
-  margin-top:70px;
-}
-.about .sections .sec2 a{
-  position: relative;
-}
-.about .sections .sec2 a .kornar4{
-  width:0px;
-  height:0px;
-  border-top:10px solid transparent;
-  border-bottom:10px solid transparent;
-  border-left:10px solid red;
-  border-right:10px solid transparent;
-  position:absolute;
-  top:-6px;
-  right:-5px;
-  transform:rotate(-45deg);
-  transition:0.1s;
-}
-.about .sections .sec2 a:hover .kornar4{
-
-  border-left:10px solid #fdd53b;
-
-}
-.about .sections .sec2 a{
-  width:80px;
-  height:80px;
-  display: block;
-  background-color:#f4f4f4;
-  margin: auto;
-}
-.about .sections .sec2 a i{
-  font-size:40px;
-  color: #000;
-  margin-top:20px;
-  margin-left:15px;
-}
-.about .sections .sec2 a:hover{
-  background-color:#000;
-  transition:1s;
-}
-.about .sections .sec2 a:hover i{
-  color: #fff;
-}
-.about .sections .sec2 h4:hover {
-  color: red;
-  cursor:pointer;
-}
-.about .sections .sec2 h4{
-  font-family:regular;
-  text-align: center;
-  margin:20px 0px;
-}
-.about .sections .sec3{
-  width:20%;
-  height:100px;
-  float: left;
-  margin-left:70px;
-  margin-top:70px;
-}
-.about .sections .sec3 a{
-  position: relative;
-}
-.about .sections .sec3 a .kornar5{
-  width:0px;
-  height:0px;
-  border-top:10px solid transparent;
-  border-bottom:10px solid transparent;
-  border-left:10px solid red;
-  border-right:10px solid transparent;
-  position:absolute;
-  top:-6px;
-  right:-5px;
-  transform:rotate(-45deg);
-  transition:0.1s;
-}
-.about .sections .sec3 a:hover .kornar5{
-
-  border-left:10px solid #fdd53b;
-
-}
-.about .sections .sec3 a{
-  width:80px;
-  height:80px;
-  display: block;
-  background-color:#f4f4f4;
-  margin: auto;
-}
-.about .sections .sec3 a i{
-  font-size:40px;
-  color: #000;
-  margin-top:20px;
-  margin-left:20px;
-}
-.about .sections .sec3 a:hover{
-  background-color:#000;
-  transition:1s;
-}
-.about .sections .sec3 a:hover i{
-  color: #fff;
-}
-.about .sections .sec3 h4:hover {
-  color: red;
-  cursor:pointer;
-}
-.about .sections .sec3 h4{
-  font-family:regular;
-  text-align: center;
-  margin:20px 0px;
-}
-.about .sections .sec4{
-  width:20%;
-  height:100px;
-  float: left;
-  margin-left:70px;
-  margin-top:70px;
-}
-.about .sections .sec4 a{
-  position: relative;
-}
-.about .sections .sec4 a .kornar6{
-  width:0px;
-  height:0px;
-  border-top:10px solid transparent;
-  border-bottom:10px solid transparent;
-  border-left:10px solid red;
-  border-right:10px solid transparent;
-  position:absolute;
-  top:-6px;
-  right:-5px;
-  transform:rotate(-45deg);
-  transition:0.1s;
-}
-.about .sections .sec4 a:hover .kornar6{
-
-  border-left:10px solid #fdd53b;
-
-}
-.about .sections .sec4 a{
-  width:80px;
-  height:80px;
-  display: block;
-  background-color:#f4f4f4;
-  margin: auto;
-}
-.about .sections .sec4 a i{
-  font-size:40px;
-  color: #000;
-  margin-top:20px;
-  margin-left:15px;
-}
-.about .sections .sec4 a:hover{
-  background-color:#000;
-  transition:1s;
-}
-.about .sections .sec4 a:hover i{
-  color: #fff;
-}
-.about .sections .sec4 h4:hover {
-  color: red;
-  cursor:pointer;
-}
-.about .sections .sec4 h4{
-  font-family:regular;
-  text-align: center;
-  margin:20px 0px;
+.about .sections{
+  margin-top:30px;
 }
 .about .sections p{
   font-family:light;
   text-align: center;
+}
+.about .sections .box{
+  width:20%;
+  float: left;
+  margin-left:40px;
+}
+.about .sections .box a{
+  display: block;
+  width:90px;
+  height:90px;
+  background-color:#f4f4f4;
+  margin: auto;
+  border:3px solid transparent;
+  position: relative;
+}
+.about .sections .box a::after{
+  content:'';
+  width:0px;
+  height:0px;
+
+  border-bottom:10px solid transparent;
+  border-left:10px solid transparent;
+  border-right:10px solid red;
+  position:absolute;
+  top:-2px;
+  right:-2px;
+
+}
+.about .sections .box a:hover:after{
+  border-right:10px solid #fec400;
+}
+.about .sections .box a i{
+  color: #000;
+  font-size:50px;
+  margin-left:15px;
+  margin-top:15px;
+}
+.about .sections .box a:hover {
+  background-color:#000;
+  border:3px solid #666;
+}
+.about .sections .box a:hover i{
+  color: #fff;
+}
+.about .sections .box h4{
+  font-family:regular;
+  color: #000;
+  text-align: center;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.about .sections .box:hover h4{
+  color: red;
+}
+.about{
+  position: relative;
+  overflow: hidden;
+
+}
+.about::after{
+  content:'';
+  width:0px;
+  height:0px;
+
+  border-bottom:81px solid transparent;
+  border-left:833px  solid #000;
+  border-right:549px  solid #000;
+  position: absolute;
+  top:0px;
+  left:0px;
 }
