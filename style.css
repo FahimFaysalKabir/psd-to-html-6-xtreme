@@ -26,8 +26,10 @@ font-family:italic;
 src: url(fonts/Oswald-Light.ttf);
 font-family:Oswald-Light;
 }
-
-
+@font-face {
+src: url(fonts/Oswald-Regular.ttf);
+font-family:Oswald-regular;
+}
 
 body{
   height:2000px;
@@ -37,6 +39,7 @@ body{
   margin:auto;
   max-width:1200px;
 }
+/* header-top starts here */
 .header-top{
   background-image: url(images/bg.jpg);
   background-color:#6b6b6b;
@@ -132,6 +135,8 @@ body{
   margin-left:-436px;
   overflow:hidden;
 }
+/* header-top ends here */
+/* header-bottom starts here */
 .header-bottom{
   width:100%;
   height:60px;
@@ -156,12 +161,14 @@ body{
   background-color: #cd1411;
   border-bottom:4px solid black;
 }
+/* header-bottom ends here */
+/* mission div starts here */
 .mission{
   background-color:#000;
   width:100%;
   height:750px;
   overflow: hidden;
-  
+
 }
 .mission .mission-logo{
  margin: auto;
@@ -315,6 +322,8 @@ body{
  font-size:14px;
  color: #fff;
 }
+/* misision div ends here */
+/* about div starts here */
 .about{
   height:500px;
 }
@@ -418,4 +427,101 @@ body{
   position: absolute;
   top:0px;
   left:0px;
+}
+/* about div ends here */
+/* our-targets div start here */
+.our-targets{
+  height:450px;
+  background-color:#d7d7d7;
+  position: relative;
+  padding-bottom:100px;
+  background-image: url(images/111.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  overflow:hidden;
+}
+.our-targets::after{
+  content:'';
+  width:0px;
+  height:0px;
+  border-top:81px solid transparent;
+  border-left:278px solid #f4f4f4;
+  border-right:1502px solid #f4f4f4;
+  position: absolute;
+  bottom:0px;
+  left:0px;
+}
+
+.our-targets .target-box {
+  display: block;
+  width:280px;
+  height:230px;
+  border:1px solid #fff;
+  float: left;
+  margin-top:100px;
+  margin-left:50px;
+  position:relative;
+  }
+.our-targets .target-box a i{
+  margin-left:120px;
+  font-size:40px;
+  margin-top:40px;
+  color: #fff;
+}
+.our-targets .target-box hr{
+  width:10%;
+  text-align: center;
+  border-top:none;
+  color: #fff;
+
+}
+.our-targets .target-box .hra1{
+  margin-top:13px;
+}
+.our-targets .target-box .hra2{
+  margin-top:-6px;
+}
+.our-targets .target-box h3{
+  color: #fff;
+  text-align: center;
+  font-family:oswald-regular;
+  font-size:20px;
+  font-weight:normal;
+}
+.our-targets .target-box p{
+  margin-top:10px;
+  color: #fff;
+  text-align: center;
+  font-family:light;
+  font-size:12px;
+  font-weight:normal;
+}
+.our-targets .target-box a::after{
+  content:'';
+  width:0px;
+  height:0px;
+  border-bottom:15px solid transparent;
+  border-left:15px solid transparent;
+  border-right:15px solid #fff;
+  position:absolute;
+  top:-1px;
+  right:-1px;
+}
+.our-targets .target-box:hover{
+  background-color: #e21711;
+  border:1px solid #e21711;
+}
+.our-targets .target-box:hover i{
+  color: #fec807;
+}
+.our-targets .target-box:hover a:after{
+  border-right:10px solid #ffc907;
+}
+
+/* our targets div ends here */
+/* featured div starts here */
+.featured111{
+  height:200px;
+  background-color: #f4f4f4;
 }
