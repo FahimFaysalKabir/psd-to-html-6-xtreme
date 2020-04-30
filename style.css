@@ -521,7 +521,74 @@ body{
 
 /* our targets div ends here */
 /* featured div starts here */
-.featured111{
-  height:200px;
+.featured-activities{
+  height:600px;
   background-color: #f4f4f4;
+  overflow: hidden;
+}
+.featured-activities img{
+  margin: auto;
+  margin-top:50px;
+  display: block;
+}
+.featured-activities h3{
+  text-align: center;
+  font-family:bold;
+  font-size:25px;
+  font-weight:normal;
+  margin-top:15px;
+}
+.featured-activities .one{
+  text-align: center;
+  margin-top:30px;
+}
+.featured-activities .one li{
+  display: inline-block;
+  width:170px;
+  height:100px;
+  background-color:#d7d7d7;
+  background-image: url(images/Service-Hours.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.featured-activities .one li:hover {
+  width:170px;
+  height:200px;
+  background-color:red;
+  margin-bottom:-99px;
+
+
+
+}
+.featured-activities .two li {
+  display: inline-block;
+
+}
+.featured-activities .two li h4{
+  font-family:regular;
+  font-size:13px;
+  text-align: left;
+  font-weight:normal;
+
+}
+.featured-activities .two{
+  margin-left:80px;
+}
+.featured-activities .two li h4 span{
+  display: block;
+}
+.featured-activities .two li:nth-child(2){
+  margin-left:66px;
+}
+.featured-activities .two li:nth-child(3){
+  margin-left:51px;
+}
+.featured-activities .two li:nth-child(4){
+  margin-left:69px;
+}
+.featured-activities .two li:nth-child(5){
+  margin-left:69px;
+}
+.featured-activities .two li:nth-child(6){
+  margin-left:31px;
 }
