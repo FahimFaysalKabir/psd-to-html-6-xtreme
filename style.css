@@ -522,9 +522,10 @@ body{
 /* our targets div ends here */
 /* featured div starts here */
 .featured-activities{
-  height:600px;
+  height:380px;
   background-color: #f4f4f4;
   overflow: hidden;
+
 }
 .featured-activities img{
   margin: auto;
@@ -545,21 +546,34 @@ body{
   float: left;
   margin-right:2px;
   overflow: hidden;
+
 }
 .featured-activities .fea-act .hover{
-  margin-top:-127px;
+  margin-top:-144px;
+  overflow: hidden;
+  position: relative;
 
 }
 .featured-activities .fea-act .hover h4{
   font-family:regular;
-  font-size:16px;
+  font-size:14px;
   color:#fff;
   font-weight:normal;
+  margin-left:10px;
+  margin-top:20px;
 }
 .featured-activities .fea-act .hover p{
   font-family:light;
   font-size:12px;
   color: #fff;
+  margin-left:10px;
+  margin-top:5px;
+}
+.featured-activities .fea-act .hover i{
+  color: #fff;
+  margin-left:10px;
+  margin-top:25px;
+  font-size:18px;
 }
 
 .featured-activities .fea-act:hover{
@@ -568,7 +582,43 @@ body{
 .featured-activities .fea-act:hover .hover {
   width:170px;
   height:200px;
-  background-color:red;
+  background-color:#E21711;
   margin-top:0px;
 
 }
+.featured-activities .fea-act .hover::after{
+  content:'';
+  width:0px;
+  height:0px;
+
+  border-bottom:15px solid transparent;
+  border-left:15px solid #FFC807;
+  border-right:15px solid transparent;
+  position:absolute;
+  bottom:0px;
+  right:0px;
+  transform: rotate(180deg);
+}
+.featured-activities .margin{
+  margin-top:27px;
+  margin-left:34px;
+}
+/* featured activities div ends here */
+/* offered div starts here */
+.offered{
+  position: relative;
+}
+.offered::after{
+  content:'';
+  width:0px;
+  height:0px;
+
+  border-bottom:59px solid transparent;
+  border-left:1160px   solid #F4F4F4;
+  border-right:709px  solid #F4F4F4;
+  position: absolute;
+  top:0px;
+  left:0px;
+}
+
+/* offered div endss here */
