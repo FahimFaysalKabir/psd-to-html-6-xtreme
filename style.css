@@ -257,6 +257,11 @@ body{
   width:27%;
   height:220px;
   background-color:#d6d6d6;
+  background-image: url(images/b1.png);
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
   float: left;
   margin-right:20px;
   margin-top:40px;
@@ -266,6 +271,11 @@ body{
   width:27%;
   height:220px;
   background-color:#d6d6d6;
+  background-image: url(images/b5.png);
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
   float: left;
   margin-right:20px;
   margin-top:40px;
@@ -274,6 +284,11 @@ body{
   width:27%;
   height:220px;
   background-color:#d6d6d6;
+  background-image: url(images/b4.png);
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-repeat:no-repeat;
+  background-size:cover;
   float: left;
   margin-right:20px;
   margin-top:40px;
@@ -299,6 +314,10 @@ body{
   width:15%;
   height:66px;
   background-color: #fff;
+  background-image: url(images/unnamed.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
   float: left;
   margin-left:51px;
   margin-top:30px;
@@ -575,6 +594,48 @@ body{
   margin-top:25px;
   font-size:18px;
 }
+.featured-activities  .fa1{
+  background-image: url(images/b1.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: top center;
+}
+.featured-activities  .fa2{
+  background-image: url(images/b2.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: top center;
+}
+.featured-activities  .fa3{
+  background-image: url(images/b6.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: top center;
+}
+.featured-activities  .fa4{
+  background-image: url(images/b4.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: top center;
+}
+.featured-activities  .fa5{
+  background-image: url(images/b5.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: top center;
+}
+.featured-activities  .fa6{
+  background-image: url(images/b6.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: top center;
+}
 
 .featured-activities .fea-act:hover{
   overflow:inherit;
@@ -622,3 +683,200 @@ body{
 }
 
 /* offered div endss here */
+/* sports-offered div starts here */
+.sports-offered{
+  height:600px;
+}
+.sports-offered img{
+  display: block;
+  margin: auto;
+  margin-top:50px;
+}
+.sports-offered h2{
+  font-family:bold;
+  text-align:center;
+  font-size:27px;
+  margin-top:10px;
+}
+.sports-offered h3{
+  width:27%;
+  background-color:#fdc807;
+  text-align: center;
+  margin: auto;
+  font-family:Oswald-Light;
+  color:#fff;
+  font-weight:normal;
+  font-size:15px;
+  padding:4px 4px;
+  letter-spacing:3px;
+  margin-top:5px;
+}
+/* sports-offered div ends here */
+.menu {
+
+text-align: center;
+margin-top:30px;
+}
+ .menu .mixitup-control-active{
+  background: #fff;
+}
+.menu button{
+  display: inline-block;
+  font-family:Oswald-regular;
+  margin-left:-6px;
+  border:1px solid #E9E9E9;
+  color: #585858;
+  font-size:12px;
+  padding:5px 8px;
+  position: relative;
+}
+
+
+.menu button::after{
+  content:'';
+  width:0px;
+  height:0px;
+
+  border-bottom:10px solid transparent;
+  border-left:10px solid red;
+  border-right:10px solid transparent;
+  position:absolute;
+  top:5px;
+  right:-5px;
+  transform: rotate(90deg);
+}
+.menu button:hover{
+  color: #fff;
+  background-color: #000;
+}
+.menu button:hover:after{
+  content:'';
+  width:0px;
+  height:0px;
+
+  border-bottom:10px solid transparent;
+  border-left:10px solid #FFC807;
+  border-right:10px solid transparent;
+  position:absolute;
+  top:5px;
+  right:-5px;
+  transform: rotate(90deg);
+}
+.so-box-main{
+  margin-top:40px;
+  margin-left:10px;
+}
+.so-box-main .so-box{
+  width:330px;
+  height:200px;
+  background-color:#D7D7D7;
+  float: left;
+
+}
+.so-box-main .sb1{
+  background-image: url(images/b1.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: top top;
+  background-repeat:no-repeat;
+}
+.so-box-main .sb2{
+  background-image: url(images/b2.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: top top;
+  background-repeat:no-repeat;
+}
+.so-box-main .sb3{
+  background-image: url(images/b3.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: top top;
+  background-repeat:no-repeat;
+}
+.so-box-main .sb4{
+  background-image: url(images/b4.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: top top;
+  background-repeat:no-repeat;
+}
+.so-box-main .sb5{
+  background-image: url(images/b5.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: top top;
+  background-repeat:no-repeat;
+}
+.so-box-main .sb6{
+  background-image: url(images/b6.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: top top;
+  background-repeat:no-repeat;
+}
+.so-box-main .sb7{
+  background-image: url(images/b1.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: top top;
+  background-repeat:no-repeat;
+}
+.so-box-main .sb8{
+  background-image: url(images/b2.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: top top;
+  background-repeat:no-repeat;
+}
+.so-box {
+  overflow: hidden;
+}
+.so-box .so-hover {
+  margin-top:200px;
+  overflow: hidden;
+
+  position: relative;
+
+}
+
+.so-box .so-hover p{
+  font-family:light;
+  font-size:12px;
+  color: #000;
+  margin-left:15px;
+  margin-top:35px;
+}
+.so-box .so-hover a{
+  padding:12px 10px;
+  width:25%;
+
+  background-color:#e21712;
+  color:#fff;
+  font-family:regular;
+  font-size:10px;
+  margin-left:15px;
+  margin-top:20px;
+  display: block;
+}
+
+.so-box:hover .so-hover {
+  width:330px;
+  height:200px;
+  background-color:#E7E7E7;
+  margin-top:0px;
+
+}
+.so-box .so-hover::after{
+  content:'';
+  width:0px;
+  height:0px;
+
+  border-bottom:15px solid transparent;
+  border-left:15px solid #e21712;
+  border-right:15px solid transparent;
+  position:absolute;
+  bottom:0px;
+  right:0px;
+  transform: rotate(180deg);
+}
